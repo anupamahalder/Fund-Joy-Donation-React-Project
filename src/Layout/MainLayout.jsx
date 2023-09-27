@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../Components/Header/Navbar";
 const MainLayout = () => {
     return (
-        <div>
-            <h1>Navvvvvvvvv</h1>
+        <div className="max-w-[1300px] max-auto">
+            <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
     );
