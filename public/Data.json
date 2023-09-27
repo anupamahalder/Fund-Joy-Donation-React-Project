@@ -67,17 +67,6 @@
     },
     {
       "ID": 7,
-      "Picture": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
-      "Title": "To Free The World From Dieases",
-      "Category": "Health",
-      "Category_bg": "#7299F1",
-      "Card_bg": "#C6D5F6",
-      "Text_button_bg": "#0E2E76",
-      "Description": "Stylish and comfortable clothing choice.",
-      "Price": "$39.99"
-    },
-    {
-      "ID": 8,
       "Picture": "https://images.unsplash.com/photo-1490424660416-359912d314b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "Title": "To Fill The Hunger One",
       "Category": "Food",
@@ -86,6 +75,17 @@
       "Text_button_bg": "#935E0D",
       "Description": "Unique home decor piece to enhance your interior design.",
       "Price": "$89.99"
+    },
+    {
+      "ID": 8,
+      "Picture": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
+      "Title": "To Free The World From Dieases",
+      "Category": "Health",
+      "Category_bg": "#7299F1",
+      "Card_bg": "#C6D5F6",
+      "Text_button_bg": "#0E2E76",
+      "Description": "Stylish and comfortable clothing choice.",
+      "Price": "$39.99"
     },
     {
       "ID": 9,
