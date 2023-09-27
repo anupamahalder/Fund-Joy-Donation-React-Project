@@ -4,7 +4,7 @@ import { useState } from "react";
 const Donation = () => {
     const donationData = useLoaderData();
     //declare a state for store the data
-    const [showDonation, setShowDonation] = useState([]);
+    // const [showDonation, setShowDonation] = useState([]);
     //declare a state for show all or not 
     const [isShowAll, setIsShowAll] = useState(false);
 

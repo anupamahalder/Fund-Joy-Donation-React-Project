@@ -3,6 +3,7 @@ import Home from "../Pages/Home/Home";
 import MainLayout from "../Layout/MainLayout";
 import Donation from "../Pages/Donation/Donation";
 import { Link } from "react-router-dom";
+import DonationDetails from "../Pages/Donation/DonationDetails";
 const myCreatedRouter = createBrowserRouter([
     {
         path: '/',
@@ -27,8 +28,8 @@ const myCreatedRouter = createBrowserRouter([
             },
             {
                 //creating dynamic path
-                path: '/donations/:id',
-                element: <div>My donation</div>,
+                path: `/donations/:ID`,
+                element: <DonationDetails></DonationDetails>,
                 loader: () => fetch('./Data.json'),
             }
         ]
