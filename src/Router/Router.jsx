@@ -20,6 +20,11 @@ const myCreatedRouter = createBrowserRouter([
             {
                 path: '/statistics',
                 element: <div>Statistics</div>
+            },
+            {
+                //creating dynamic path
+                path: '/donations/:id',
+                element: <div>My donation</div>
             }
         ]
     }
