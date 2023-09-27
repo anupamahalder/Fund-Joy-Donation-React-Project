@@ -15,14 +15,35 @@ const Navbar = () => {
                     open===true ? <AiOutlineDown></AiOutlineDown>:<AiOutlineAlignRight></AiOutlineAlignRight>
                 }
             </div>
-                            {/* <NavLink
-                to="/messages"
-                className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
-                }
-                >
-                Messages
-                </NavLink>; */}
+            <ul className={`md:flex md:gap-4 text-xl text-gray-600 font-semibold absolute md:static ${open===true ? "bg-white rounded-xl text-sm z-10 p-4 mt-36 shadow-lg flex flex-col gap-2 right-12": "-top-40"}`}>
+                <li>
+                    <NavLink
+                        to="/"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-red-600 border-b-2 border-red-600" : ""
+                        }
+                        >Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/donations"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-red-600 border-b-2 border-red-600" : ""
+                        }
+                        >Donations
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/statistics"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-red-600 border-b-2 border-red-600" : ""
+                        }
+                        >Statistics
+                    </NavLink>
+                </li>
+            </ul>
         </div>
     );
 };

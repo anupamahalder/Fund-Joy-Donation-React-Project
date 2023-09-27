@@ -15,6 +15,10 @@ const myCreatedRouter = createBrowserRouter([
             {
                 path: '/donations',
                 element: <div>Donations</div>
+            },
+            {
+                path: '/statistics',
+                element: <div>Statistics</div>
             }
         ]
     }
