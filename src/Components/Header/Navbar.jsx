@@ -7,15 +7,15 @@ const Navbar = () => {
     //declare a state to store the icon is open or not with false inital value
     const [open, setOpen] = useState(false);
     return (
-        <div className="py-6 px-10 flex justify-between items-center">
+        <div className="py-6 px-10 flex h-24 justify-between items-center">
             <Logo></Logo>
             {/* A div to track which icon is open currently and this div is hidden for medium device */}
-            <div className="md:hidden right-12 text-2xl text-gray-700" onClick={() => setOpen(!open)}>
+            <div className="md:hidden right-12 text-2xl text-gray-900" onClick={() => setOpen(!open)}>
                 {
                     open===true ? <AiOutlineDown></AiOutlineDown>:<AiOutlineAlignRight></AiOutlineAlignRight>
                 }
             </div>
-            <ul className={`md:flex md:gap-4 text-xl text-gray-600 font-semibold absolute md:static ${open===true ? "bg-white rounded-xl text-sm z-10 p-4 mt-36 shadow-lg flex flex-col gap-2 right-12": "-top-40"}`}>
+            <ul className={`md:flex md:gap-10 text-xl text-gray-900 font-semibold absolute md:static ${open===true ? "bg-white rounded-xl text-sm z-10 p-4 mt-36 shadow-lg flex flex-col gap-2 right-12": "-top-40"}`}>
                 <li>
                     <NavLink
                         to="/"

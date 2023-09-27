@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      'banner-img': "url('/public/banner1.jpeg')",
+    }
   },
   plugins: [],
 }
