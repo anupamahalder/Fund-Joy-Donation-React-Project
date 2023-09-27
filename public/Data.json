@@ -13,11 +13,11 @@
     {
       "ID": 2,
       "Picture": "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1413&q=80",
-      "Title": "Reuse The Old Cloths",
+      "Title": "Reuse The Old Clothes",
       "Category": "Clothing",
-      "Category_bg": "#EE7EE4",
-      "Card_bg": "#FFF8F1",
-      "Text_button_bg": "#821078",
+      "Category_bg": "#AAEA2C",
+      "Card_bg": "#E5FEB4",
+      "Text_button_bg": "#5D8807",
       "Description": "Trendy clothing item for all occasions.",
       "Price": "$49.99"
     },
