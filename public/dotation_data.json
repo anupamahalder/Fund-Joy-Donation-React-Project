@@ -1,0 +1,135 @@
+[
+    {
+      "ID": 1,
+      "Picture": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "For Free Education System",
+      "Category": "Education",
+      "Category_bg": "#F57F9C",
+      "Card_bg": "#F1C9D3",
+      "Text_button_bg": "#E42252",
+      "Description": "A high-quality electronic product with advanced features.",
+      "Price": "$199.99"
+    },
+    {
+      "ID": 2,
+      "Picture": "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1413&q=80",
+      "Title": "Reuse The Old Cloths",
+      "Category": "Clothing",
+      "Category_bg": "#EE7EE4",
+      "Card_bg": "#FFF8F1",
+      "Text_button_bg": "#821078",
+      "Description": "Trendy clothing item for all occasions.",
+      "Price": "$49.99"
+    },
+    {
+      "ID": 3,
+      "Picture": "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      "Title": "For Better Health Care",
+      "Category": "Health",
+      "Category_bg": "#7299F1",
+      "Card_bg": "#C6D5F6",
+      "Text_button_bg": "#0E2E76",
+      "Description": "Elegant home decor piece to beautify your living space.",
+      "Price": "$79.99"
+    },
+    {
+      "ID": 4,
+      "Picture": "https://images.unsplash.com/photo-1540151812223-c30b3fab58e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "Empower Knowledge From Books",
+      "Category": "Books",
+      "Category_bg": "#F6A18E",
+      "Card_bg": "#FBE3DE",
+      "Text_button_bg": "#E54B2A",
+      "Description": "Bestseller book with captivating content.",
+      "Price": "$29.99"
+    },
+    {
+      "ID": 5,
+      "Picture": "https://images.unsplash.com/photo-1583668006690-ffc215fd5264?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1256&q=80",
+      "Title": "Stay Fit And Active",
+      "Category": "Sports",
+      "Category_bg": "#85DFF2",
+      "Card_bg": "#D6F3F9",
+      "Text_button_bg": "#097A93",
+      "Description": "Sports equipment for your outdoor adventures.",
+      "Price": "$149.99"
+    },
+    {
+      "ID": 6,
+      "Picture": "https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "To Achieve Higher Education",
+      "Category": "Education",
+      "Category_bg": "#F57F9C",
+      "Card_bg": "#F1C9D3",
+      "Text_button_bg": "#E42252",
+      "Description": "Cutting-edge electronic gadget for tech enthusiasts.",
+      "Price": "$299.99"
+    },
+    {
+      "ID": 7,
+      "Picture": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
+      "Title": "To Free The World From Dieases",
+      "Category": "Health",
+      "Category_bg": "#7299F1",
+      "Card_bg": "#C6D5F6",
+      "Text_button_bg": "#0E2E76",
+      "Description": "Stylish and comfortable clothing choice.",
+      "Price": "$39.99"
+    },
+    {
+      "ID": 8,
+      "Picture": "https://images.unsplash.com/photo-1490424660416-359912d314b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "To Fill The Hunger One",
+      "Category": "Food",
+      "Category_bg": "#F3B75C",
+      "Card_bg": "#F7D9AB",
+      "Text_button_bg": "#935E0D",
+      "Description": "Unique home decor piece to enhance your interior design.",
+      "Price": "$89.99"
+    },
+    {
+      "ID": 9,
+      "Picture": "https://plus.unsplash.com/premium_photo-1686836995143-cf0963851048?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "Drink Clean Water",
+      "Category": "Drinks",
+      "Category_bg": "#A3D2CA",
+      "Card_bg": "#F7F7F7",
+      "Text_button_bg": "#FF5733",
+      "Description": "Classic book that belongs on every bookshelf.",
+      "Price": "$19.99"
+    },
+    {
+      "ID": 10,
+      "Picture": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      "Title": "Make Children Stronger",
+      "Category": "Health",
+      "Category_bg": "#7299F1",
+      "Card_bg": "#C6D5F6",
+      "Text_button_bg": "#0E2E76",
+      "Description": "Outdoor gear for your active lifestyle.",
+      "Price": "$99.99"
+    },
+    {
+      "ID": 11,
+      "Picture": "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "Title": "See The Educated Future Generation",
+      "Category": "Education",
+      "Category_bg": "#F57F9C",
+      "Card_bg": "#F1C9D3",
+      "Text_button_bg": "#E42252",
+      "Description": "Innovative electronic device with exceptional performance.",
+      "Price": "$249.99"
+    },
+    {
+      "ID": 12,
+      "Picture": "https://images.unsplash.com/photo-1549741669-eab99fe172a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Title": "To Save From Waste of Foods",
+      "Category": "Food",
+      "Category_bg": "#F3B75C",
+      "Card_bg": "#F7D9AB",
+      "Text_button_bg": "#935E0D",
+      "Description": "Fashionable clothing item for all seasons.",
+      "Price": "$59.99"
+    }
+  ]
+  
