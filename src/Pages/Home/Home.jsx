@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             {/* Showing donation card  */}
             <div className="flex justify-center mx-auto mt-60">
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                <div className="grid grid-cols-2 px-4 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {
                         // mapping through all data 
                         donationData.map(donation => <DonationCardList key={donation.ID} donation={donation}></DonationCardList>)
