@@ -2,7 +2,7 @@
 import { useLoaderData } from "react-router-dom";
 // import Navbar from "../../Components/Header/Navbar";
 import DonationCardList from "./DonationCardList";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 const Home = () => {
     //loading data
     const donationData = useLoaderData();
@@ -52,7 +52,7 @@ const Home = () => {
                 <div className="grid grid-cols-1 px-4 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {
                         // mapping through all data 
-                        matchDonation.map(donation => <DonationCardList key={donation.ID} donation={donation}></DonationCardList>)
+                        matchDonation?.map(donation => <DonationCardList key={donation.ID} donation={donation}></DonationCardList>)
                     }
                 </div>
             </div>

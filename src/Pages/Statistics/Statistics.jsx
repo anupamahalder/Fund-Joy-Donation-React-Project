@@ -5,10 +5,15 @@ const Statistics = () => {
     const [donate, setDonate] = useState(0);
     useEffect(()=>{
         // getting data from localStorage 
-        let totalLocalData = JSON.parse(localStorage.getItem('donationList')).length;
-        totalLocalData = (totalLocalData/12)*100;
-        console.log(totalLocalData); 
-        setDonate(totalLocalData);
+        const dataFromLC = localStorage.getItem('donationList');
+        if(dataFromLC){
+            let totalLocalData = JSON.parse(localStorage.getItem('donationList'))?.length;
+            if(totalLocalData){
+                totalLocalData = ((totalLocalData/12)*100);
+                console.log(totalLocalData); 
+                setDonate(totalLocalData);
+            }
+        }
     },[]);
     //create data for piechart
     const myData = [
@@ -16,7 +21,7 @@ const Statistics = () => {
         {name:"Total Donation",value:(100-donate), color: "#00C49F"}
     ]
     // color data 
-    const myColor = ["#FF444A","#00C49F"];
+    // const myColor = ["#FF444A","#00C49F"];
     return (
         <div className="flex justify-center items-center my-20">
             <div style={{ width: "100%", height: 300 }} className="my-10">
