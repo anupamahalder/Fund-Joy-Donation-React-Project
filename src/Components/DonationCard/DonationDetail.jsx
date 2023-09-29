@@ -1,4 +1,4 @@
-
+import swal from 'sweetalert';
 import PropTypes from 'prop-types'
 const DonationDetail = ({donation={}}) => {
     console.log(donation);
@@ -19,11 +19,15 @@ const DonationDetail = ({donation={}}) => {
         else{
             const isExists = donationFromLC.find(donate => donate.ID === ID)
             // console.log(isExists);
-            if(isExists) return;
-            //when data is there in local storage
-            storeDonation.push(...donationFromLC,donation);
-            //set to local storage
-            localStorage.setItem('donationList',JSON.stringify(storeDonation));
+            if(!isExists){
+                swal("Good job!", "You have successfully donated!", "success");
+                //when data is there in local storage
+                storeDonation.push(...donationFromLC,donation);
+                //set to local storage
+                localStorage.setItem('donationList',JSON.stringify(storeDonation));
+            }else{
+                swal("Thanks!", "You already have donated!", "info");
+            }
         }
     }
     return (
