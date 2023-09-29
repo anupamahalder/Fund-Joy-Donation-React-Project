@@ -26,7 +26,7 @@ const DonationDetail = ({donation={}}) => {
                 //set to local storage
                 localStorage.setItem('donationList',JSON.stringify(storeDonation));
             }else{
-                swal("Thanks!", "You already have donated!", "info");
+                swal("Thanks!", "You have already donated!", "info");
             }
         }
     }

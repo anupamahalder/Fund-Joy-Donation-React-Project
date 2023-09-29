@@ -9,8 +9,7 @@ const Home = () => {
 
     return (
         <div className="max-w-[1330px] mx-auto">
-            <div className="h-[500px] w-full bg-[url('/public/banner1.jpeg')] -mt-24 bg-center opacity-10">
-                <Navbar></Navbar>
+            <div className="h-[500px] z-10 w-full bg-[url('/public/banner1.jpeg')] bg-cover -mt-24 bg-center">
             </div>
             <div className="-mt-64">
                 <h1 className="text-center text-4xl opacity-100 font-bold mb-6">I Grow By Helping People In Need</h1>
@@ -35,7 +34,7 @@ const Home = () => {
             </div>
             {/* Showing donation card  */}
             <div className="flex justify-center mx-auto mt-60">
-                <div className="grid grid-cols-2 px-4 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                <div className="grid grid-cols-1 px-4 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {
                         // mapping through all data 
                         donationData.map(donation => <DonationCardList key={donation.ID} donation={donation}></DonationCardList>)
