@@ -5,7 +5,7 @@ const DonationCardList = ({donation}) => {
     const {ID, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg} = donation;
 
     return (
-        <Link to={`/donations/${ID}`}>
+        <Link to={`/donation/${ID}`}>
             <div
                 className='rounded-xl h-80 p-2 mb-8' style={{backgroundColor: Card_bg}}>
                 <img className='h-40 w-72 rounded-xl mx-auto' src={Picture} alt="" />

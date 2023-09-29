@@ -1,10 +1,16 @@
 import DonationCard from "../../Components/DonationCard/DonationCard";
-import { useLoaderData } from "react-router-dom";
-import { useState } from "react";
+// import { useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
 const Donation = () => {
-    const donationData = useLoaderData();
-    //declare a state for store the data
-    // const [showDonation, setShowDonation] = useState([]);
+    // const donationData = useLoaderData();
+    // declare a state for store the data
+    const [donationData, setDonationData] = useState([]);
+    useEffect(()=>{
+        const dataFromLC = JSON.parse(localStorage.getItem('donationList'));
+        if(dataFromLC){
+            setDonationData(dataFromLC);
+        }
+    },[]);
     //declare a state for show all or not 
     const [isShowAll, setIsShowAll] = useState(false);
 

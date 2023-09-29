@@ -11,7 +11,7 @@ const DonationCard = ({donation}) => {
                     <button className='px-2 py-1 my-5 rounded-md cursor-default font-semibold' style={{backgroundColor: Category_bg, color:Text_button_bg}}>{Category}</button>
                     <h1 className='pl-2 font-bold text-2xl text-black'>{Title}</h1>
                     <h1 className='font-semibold px-2 pt-1' style={{color: Text_button_bg}}>{Price}</h1>
-                    <Link to={`/donations/${ID}`}>
+                    <Link to={`/donation/${ID}`}>
                         <button
                         className='px-2 py-1 my-5 rounded-md font-semibold text-white' style={{backgroundColor: Text_button_bg}}>View Details</button>
                     </Link>
