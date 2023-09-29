@@ -5,11 +5,11 @@ const DonationCard = ({donation}) => {
     const {ID,Picture, Title, Category, Category_bg, Card_bg, Price, Text_button_bg} = donation;
     return (
         <div
-            className='rounded-xl h-60 p-2 mb-4 flex gap-6' style={{backgroundColor: Card_bg}}>
-                <img className='h-56 w-60 rounded-xl mx-auto' src={Picture} alt="" />
+            className='rounded-xl md:h-60 p-2 mb-4 md:flex md:gap-6' style={{backgroundColor: Card_bg}}>
+                <img className='h-40 md:h-56 w-72 md:w-60 rounded-xl mx-auto' src={Picture} alt="" />
                 <div className='w-60'>
                     <button className='px-2 py-1 my-5 rounded-md cursor-default font-semibold' style={{backgroundColor: Category_bg, color:Text_button_bg}}>{Category}</button>
-                    <h1 className='pl-2 font-bold text-2xl text-black'>{Title}</h1>
+                    <h1 className='pl-2 font-bold text-xl md:text-2xl text-black'>{Title}</h1>
                     <h1 className='font-semibold px-2 pt-1' style={{color: Text_button_bg}}>{Price}</h1>
                     <Link to={`/donation/${ID}`}>
                         <button

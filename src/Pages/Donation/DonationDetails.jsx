@@ -20,7 +20,7 @@ const DonationDetails = () => {
     },[id, donations]);
     // console.log('From donation one detail: ',donation);
     return (
-        <div className="max-w-[1300px] mx-auto h-screen">
+        <div className="max-w-[1300px] mx-auto mb-10">
             <DonationDetail key={id} donation={donation}></DonationDetail>
             {/* <h1>Hello from donation details</h1> */}
         </div>
