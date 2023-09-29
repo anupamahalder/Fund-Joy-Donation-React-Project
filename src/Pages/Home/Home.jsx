@@ -5,7 +5,7 @@ import DonationCardList from "./DonationCardList";
 const Home = () => {
     //loading data
     const donationData = useLoaderData();
-    console.log(donationData);
+    // console.log(donationData);
 
     return (
         <div className="max-w-[1330px] mx-auto">

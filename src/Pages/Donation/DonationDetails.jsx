@@ -4,21 +4,25 @@ import DonationDetail from "../../Components/DonationCard/DonationDetail";
 
 const DonationDetails = () => {
     //declare a state to store data
-    const [dontaionData, setDonationData] = useState({});
-    const donations = useLoaderData();
+    const [donation, setDonation] = useState({})
+    const donations = useLoaderData()
+    // console.log(donations); //string
     //destructure id 
-    const {ID} = useParams();
+    const {id} = useParams()
+    // console.log('My id: ', id); //string
     // find the dotation card 
     useEffect (()=>{
-        const findDonation = donations?.find(oneDonation => oneDonation.id == ID);
+        const findDonation = donations.find(donation => donation.ID == id);
+        // console.log("I am from find donation",findDonation);
+        
         //set to the state
-        setDonationData(findDonation);
-    },
-    [ID, donations]);
-    console.log('From donation one detail: ',dontaionData);
+        setDonation(findDonation);
+    },[id, donations]);
+    // console.log('From donation one detail: ',donation);
     return (
-        <div className="my-20 mx-auto">
-            <DonationDetail key={ID} dontaionData={dontaionData}></DonationDetail>
+        <div className="max-w-[1300px] mx-auto mb-20">
+            <DonationDetail key={id} donation={donation}></DonationDetail>
+            {/* <h1>Hello from donation details</h1> */}
         </div>
     );
 };
