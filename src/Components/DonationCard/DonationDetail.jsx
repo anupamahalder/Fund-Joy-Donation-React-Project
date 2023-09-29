@@ -1,14 +1,38 @@
+
 import PropTypes from 'prop-types'
 const DonationDetail = ({donation={}}) => {
     console.log(donation);
     // destructure the findonation
-    const { Price, Title, Picture} = donation;
+    const { ID, Price, Title, Picture,Text_button_bg} = donation;
+    //handle donate button
+    const handleDonateButton = () =>{
+        // to store data from local storage by default empty array 
+        const storeDonation = [];
+        // checking local storage contain data or not 
+        const donationFromLC =  JSON.parse(localStorage.getItem('donationList'));
+        //if data is not available
+        if(!donationFromLC){
+            //push the donation data first time
+            storeDonation.push(donation);
+            localStorage.setItem('donationList',JSON.stringify(storeDonation));
+        }
+        else{
+            const isExists = donationFromLC.find(donate => donate.ID === ID)
+            // console.log(isExists);
+            if(isExists) return;
+            //when data is there in local storage
+            storeDonation.push(...donationFromLC,donation);
+            //set to local storage
+            localStorage.setItem('donationList',JSON.stringify(storeDonation));
+        }
+    }
     return (
         <div>
             <img src={Picture} className='w-full h-[70vh] object-cover object-top mx-auto' alt="" />
             <div className='-mt-20'>
                 <div className='bg-black/50 w-full h-20'>
-                    <button className='bg-red-600 p-4 ml-6 my-3 text-white font-semibold rounded-lg'>Donate {Price}</button>  
+                    <button onClick={handleDonateButton} 
+                    className='p-4 ml-6 my-3 text-white font-semibold rounded-lg' style={{backgroundColor:Text_button_bg}}>Donate {Price}</button>  
                 </div>
             </div>
             <h1 className='text-3xl font-bold my-4 mx-6'>{Title}</h1>
