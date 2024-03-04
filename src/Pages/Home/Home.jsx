@@ -15,10 +15,13 @@ const Home = () => {
     // declare a state to store the matched category donations data 
     const [matchDonation, setMatchedDonation] = useState(donationData);
     const handleShowDonationList =()=>{
-        const matchDonationData = donationData.filter(donation => donation.Category.toLowerCase() === inputText.toLowerCase());
+        const matchDonationData = donationData.filter(donation => donation.Category.toLowerCase().includes(inputText.toLowerCase()));
         console.log(matchDonationData);
         if(matchDonationData){
             setMatchedDonation(matchDonationData);
+        }
+        else{
+            setMatchedDonation(donationData);
         }
     };
 

@@ -15,8 +15,8 @@ const Donation = () => {
     const [isShowAll, setIsShowAll] = useState(false);
 
     return (
-        <>
-        <div className="max-w-[1330px] min-h-screen flex justify-center mt-20 mx-auto">
+        <div className="my-20 min-h-screen">
+        <div className="max-w-[1330px] flex justify-center mx-auto">
             {
                 donationData.length==0?
                 <div className="h-[60vh] mx-auto flex justify-center items-center">
@@ -31,17 +31,17 @@ const Donation = () => {
                 </div>
             }
         </div>
-        <div className="flex justify-center mb-20">
+        <div className="md:flex md:justify-center">
         {/* when button will be clicked the value of the button will also be changed */}
         {
             donationData.length > 4 ? <button onClick={() => setIsShowAll(!isShowAll)}
-             className="py-2 px-3 text-white bg-green-800 rounded-xl">
+             className="py-2 my-6 px-3 font-bold text-xl text-white bg-green-800 text-bold rounded-md">
             {
                 isShowAll ? 'See Less':'See More'
             }</button>
             :''
         }
-    </div> </>
+    </div> </div>
     );
 };
 
