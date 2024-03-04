@@ -23,7 +23,7 @@ const Home = () => {
     };
 
     return (
-        <div className="max-w-[1330px] mx-auto">
+        <div className="max-w-[1330px] mx-auto mb-20">
             <div className="h-[450px] bg-black opacity-20 w-full bg-[url('/public/banner1.jpeg')] bg-cover bg-center">
             </div>
             <div className="-mt-64">
