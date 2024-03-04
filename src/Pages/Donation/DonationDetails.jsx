@@ -4,11 +4,11 @@ import DonationDetail from "../../Components/DonationCard/DonationDetail";
 
 const DonationDetails = () => {
     //declare a state to store data
-    const [donation, setDonation] = useState({})
-    const donations = useLoaderData()
+    const [donation, setDonation] = useState({});
+    const donations = useLoaderData();
     // console.log(donations); //string
     //destructure id 
-    const {id} = useParams()
+    const {id} = useParams();
     // console.log('My id: ', id); //string
     // find the dotation card 
     useEffect (()=>{

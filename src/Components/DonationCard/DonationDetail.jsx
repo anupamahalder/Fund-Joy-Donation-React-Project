@@ -15,6 +15,7 @@ const DonationDetail = ({donation={}}) => {
             //push the donation data first time
             storeDonation.push(donation);
             localStorage.setItem('donationList',JSON.stringify(storeDonation));
+            swal("Good job!", "You have successfully donated!", "success");
         }
         else{
             const isExists = donationFromLC.find(donate => donate.ID === ID)

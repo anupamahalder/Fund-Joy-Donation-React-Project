@@ -7,7 +7,7 @@ const Navbar = () => {
     //declare a state to store the icon is open or not with false inital value
     const [open, setOpen] = useState(false);
     return (
-        <div className="py-6 px-10 flex h-24 justify-between items-center">
+        <div className="py-6 px-10 flex h-24 justify-between items-center shadow-xl">
             <Logo></Logo>
             {/* A div to track which icon is open currently and this div is hidden for medium device */}
             <div className="md:hidden right-12 text-2xl text-gray-900" onClick={() => setOpen(!open)}>

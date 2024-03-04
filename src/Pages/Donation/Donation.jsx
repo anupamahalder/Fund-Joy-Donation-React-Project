@@ -16,7 +16,7 @@ const Donation = () => {
 
     return (
         <>
-        <div className="max-w-[1330px] flex justify-center my-20 mx-auto">
+        <div className="max-w-[1330px] min-h-screen flex justify-center mt-20 mx-auto">
             {
                 donationData.length==0?
                 <div className="h-[60vh] mx-auto flex justify-center items-center">
