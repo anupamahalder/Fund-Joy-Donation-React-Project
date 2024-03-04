@@ -27,8 +27,8 @@ const Home = () => {
             <div className="h-[450px] bg-black opacity-20 w-full bg-[url('/public/banner1.jpeg')] bg-cover bg-center">
             </div>
             <div className="-mt-64">
-                <h1 className="text-center text-4xl opacity-100 font-bold mb-6">I Grow By Helping People In Need</h1>
-                <div className="relative flex h-10 w-full mx-auto  min-w-[200px] max-w-[24rem]">
+                <h1 className="text-center text-2xl md:text-4xl opacity-100 font-bold mb-6">I Grow By Helping People In Need</h1>
+                <div className="relative md:flex h-10 mx-4 md:w-full md:mx-auto  min-w-[150px] md:max-w-[24rem]">
                 <input onChange={handleSearchBtn} value={inputText}
                     type="text"
                     className="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-gray-800 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-red-600 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"

@@ -41,7 +41,7 @@ const DonationDetail = ({donation={}}) => {
                 </div>
             </div>
             <h1 className='text-3xl font-bold my-4 mx-6'>{Title}</h1>
-            <p className='mx-6 text-gray-700 '>
+            <p className='mx-6 md:text-xl text-gray-700 mb-20'>
             Your generous donation can make a world of difference to those in need. Every contribution, whether big or small, helps us create a brighter future and provide essential assistance to those facing adversity. With your support, we can continue our mission to bring hope, relief, and positive change to the lives of individuals and communities in need. Your donation fuels our efforts to make the world a better place, and together, we can make a lasting impact that reverberates far beyond today. Please consider giving today and be a part of our journey towards a better tomorrow.
             </p>
         </div>
